@@ -15,10 +15,15 @@ For information, links, and documentation regarding the UI-Template [Volt React 
 
 1. Start the Flask backend like so:
     1. cd into ui-test/api with `cd api`
+<<<<<<< HEAD
     1. Activate the virtual env with `venv/Scripts/activate.ps1`(powershell)
         - You may need to use ...`activate.bat`(cmd) or something else depending on shell/OS
     1. Start the server with `flask run --no-debugger`
 1. Return to the root directory (you will likely need to open another shell instance)
+=======
+    1. Start the server with `flask run --no-debugger`
+1. Return to the root directory with `cd ..`
+>>>>>>> 847ba56d5a51250e58fadda69872a6d350aaffc5
 1. Run `npm start`
 
 
