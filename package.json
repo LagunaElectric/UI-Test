@@ -54,6 +54,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "start-api": "cd api && venv/Scripts/flask run --no-debugger",
     "build": "react-scripts build",
     "build-local": "PUBLIC_URL=./ react-scripts build",
     "test": "react-scripts test",
@@ -78,5 +79,6 @@
   },
   "devDependencies": {
     "typescript": "^4.4.3"
-  }
+  },
+  "proxy": "http://localhost:5000"
 }
