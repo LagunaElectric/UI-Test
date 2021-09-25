@@ -6,7 +6,7 @@ const ApiTest = () => {
 
 
     const handleRequest = async () => {
-        let response = await fetch("/test_message");
+        let response = await fetch("/debug/test_message");
         let data = await response.json()
         setResponseData(await data);
     };

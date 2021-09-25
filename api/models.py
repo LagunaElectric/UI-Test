@@ -1,6 +1,5 @@
 from api import db
 
-## pyright: reportGeneralTypeIssues=false
 """
 Unfortunately, there seems to be a known issue with Pylance
 (VSCode's type checker) where it is unable to correctly identify
@@ -10,6 +9,8 @@ the 'db' object.
 Since this file shouldn't be handling much logic or data anyway,
 I'm disabling the "GeneralTypeIssues" reporting.
 """
+
+# pyright: reportGeneralTypeIssues=false
 class Test(db.Model):
     __tablename__: str = "MyTable"
 
